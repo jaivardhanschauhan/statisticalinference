@@ -1,0 +1,80 @@
+Data exploration and multiple regression 
+
+This question asks you to explore, explain, and model life expectancy across countries using gapminder data available here: Gapminder data
+
+Variables
+
+The data file contains the following variables (you do not need most of those though):
+
+    name : country name
+    iso3 : 3-letter country code
+    iso2 : 2-letter country code
+    region : broad geographic region, also loosely called as “continent” below.
+    sub-region : more precise region
+    intermediate-region
+    time : year. I recommend renaming this to “year” instead because I always mess it up.
+    totalPopulation : total population
+    GDP_PC : GDP per capita (constant 2010 US$)
+    accessElectricity : Access to electricity (% of population)
+    agriculturalLand : Agricultural land (sq. km)
+    agricultureTractors : Agricultural machinery, tractors (count)
+    cerealProduction : Cereal production (metric tons)
+    feritilizerHa : Fertilizer consumption (kilograms per hectare of arable land)
+    fertilityRate : total fertility rate (births per woman)
+    lifeExpectancy : Life expectancy at birth, total (years)
+    childMortality : Mortality rate, under-5 (per 1,000 live births)
+    youthFemaleLiteracy : Literacy rate, youth female (% of females ages 15-24)
+    youthMaleLiteracy : Literacy rate, youth male (% of males ages 15-24)
+    adultLiteracy : Literacy rate, adult total (% of people ages 15 and above)
+    co2 : CO2 emissions (kt)
+    greenhouseGases : Total greenhouse gas emissions (kt of CO2 equivalent)
+    co2_PC : CO2 emissions (metric tons per capita)
+    pm2.5_35 : PM2.5 pollution, population exposed to levels exceeding WHO Interim Target-1 value 36 µg m−3 (% of total)
+    battleDeaths : Battle-related deaths (number of people)
+
+Some of these variables are available almost every year, some are mostly missing.
+
+1.1 Explore life expectancy 
+
+
+Your first task is to explore life expectancy and produce some summary graphs and plots.
+
+
+1. Explain what is life expectancy. Here we talk about period life expectancy at birth, not cohort life expectancy.
+Hint: Wikipedia is a good source but you can also consult other sources.
+
+
+2. Load and clean the data. Remove all cases with missing life expectancy, year, and country name or code. You may have to return here later to improve cleaning if you discover more issues below.
+How many good cases do we have?
+Explain what steps you took, and in case the task is ambiguous, also explain why you took exactly these steps.
+Hint: data may have other problems than just NA values!
+
+
+3. Now it is time to do some brief exploration:
+
+(a) How many countries do we have in these data?
+(b) What is the first and last year with valid life expectancy data?
+(c) What are the lowest and highest life expectancy values? Which country/year do they correspond to?
+(d) If you do this correctly, you will see that the shortest life expectancy corresponds to a well-known event. What is the event? (You may consult Wikipedia if you do not know).
+
+
+4. Next, let's plot the life expectancy over time for all countries (there are many of them).
+
+Make a plot where you show life expectancy (y-axis) in each country versus time (x-axis). Highlight the U.S., South Korea, Cambodia, and China on this graph.
+
+Choose a few additional countries, and explain why you think it is interesting to look at those countries.
+
+Hint: you can generate this graph in different ways, I recommend using ggplot and doing it in two stages: a) plot all countries in gray (or even better–with semi-transparent lines) using geom_line; and b) thereafter plot only data for the selected countries using geom_line again, but this time specifying that we want the data colored according to the country. When you plot all the countries at the same time in the first go, you can use the aesthetic group to ensure that the lines are drawn separately for separate countries. Note that both a) and b) will specify layers of the same plot.
+
+
+5. Explain what you see on the graph. What is the overall picture? How do the selected countries behave? Anything else interesting you see?
+
+
+6. Now, let’s examine how life expectancy and fertility are related. Make a fertility rate versus life expectancy plot of all countries with selected countries highlighted. Use arrows to mark which way the time goes on the figure.
+
+Hint: do not use geom_line here, that geom orders the x-values and draws a line from smallest to the largest x. This makes sense if time is on your horizontal axis but not at all if there is fertility or life expectancy. Instead, I recommend you follow the idea of the previous plot: plot all countries in gray, and add the selected countries as a separate layer in color. You can add arrows to geom_line as geom_line(..., arrow=arrow()), see the documentation of arrow for fine-tuning. Below is a small a little zoomed region on my plot. This is what we have in mind, try to do something along the same lines.
+
+plot-screenshot.png
+
+
+7. Comment on the results. Where is the world going? Where are the highlighted countries going?
