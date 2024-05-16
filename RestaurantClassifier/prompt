@@ -1,0 +1,32 @@
+Find Cheap Restaurants 
+
+The Italian restaurants in New York City are legendary, and it's time to put your newly developed skills to work to find a better price both for you and for your friends. What are the factors that contribute to the meal prices at Italian restaurants in New York City? You will be looking at the numeric reviews posted on the Zagat review. Each restaurant is rated on a scale of 0 to 30 for the quality of its food, decor, and service. The data comes in the form of ZagatLinks to an external site. reviews from 168 Italian restaurants in New York City from 2001. Here is the dataset: Italian restaurants data
+
+Download Italian restaurants data Download Italian restaurants data.
+
+The important variables are
+
+    Cheap: is the restaurant considered cheap (1) or expensive (0)
+    Food, Decor, Service: rating (0. . . 30) for these items, larger is better
+    East: restaurant located east of the 5th Ave.
+
+Your task is to build a model that can successfully predict whether a restaurant is cheap or expensive based on location and rating.
+
+
+1. Load the data and perform basic sanity checks. Ensure you understand the variables. Check for missing and unreasonable values and clean the data if necessary.
+
+2. Your task is to predict whether a restaurant is cheap or not. What type of model, linear or logistic regression do you think is suitable for this task? Explain!
+
+3. Now build the model. Include all the variables you consider relevant for this task. Estimate the model and interpret the statistically significant results. Do your results align with common sense?
+
+Ensure you interpret the right type of effects.
+
+This was the interpretative modeling. Now it is time for some predictions. Often we use predictions together with model development and validation and we want to split the data into training and validation sets. But here we will skip the validation part and just use all the data for training, and later predict using new data.
+
+
+4. You are going out with friends and feeling hungry and would like to have lunch at a not-too-expensive Italian place. You find there are two new places with the following scores and locations:
+Restaurant  	Food 	Decor  	Service 	Eastside
+Assagio Ristorante 	23 	17 	22 	0
+Altura 	18 	15 	24 	1
+
+What does your model predict? Is any of these two restaurants a cheap place? What is the probability of each of the two restaurants being cheap according to the model? Use the model you made above to find it out.
