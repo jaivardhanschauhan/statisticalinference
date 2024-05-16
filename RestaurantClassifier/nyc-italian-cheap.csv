@@ -1,0 +1,169 @@
+Restaurant	Food	Decor	Service	East	Cheap
+Daniella Ristorante	22	18	20	0	0
+Tello's Ristorante	20	19	19	0	1
+Biricchino	21	13	18	0	1
+Bottino	20	20	17	0	0
+Da Umberto	24	19	21	0	0
+Le Madri	22	22	21	0	0
+Le Zie	22	16	21	0	1
+Pasticcio	20	18	21	1	1
+Belluno	22	19	22	1	1
+Cinque Terre	21	17	19	1	0
+Fino	19	17	20	1	0
+Marchi's	21	19	21	1	0
+Nicola Paone	21	19	20	1	0
+Notaro	19	17	19	1	1
+Rossini's	20	18	21	1	0
+Trattoria Alba	21	19	21	1	1
+Villa Berulia	22	18	23	1	0
+Il Postino	24	21	22	1	0
+Luna Blu	19	17	18	1	1
+San Giusto	22	20	22	1	0
+Grifone	23	20	23	1	0
+Nanni's	23	17	21	1	0
+Osteria Laguna	20	18	18	1	1
+Bellini	22	21	21	1	0
+Cellini	22	20	22	1	0
+Anche Vivolo	19	17	19	1	1
+Bruno Ristorante	22	19	22	1	0
+Chianti	20	16	18	1	0
+Da Antonio Ristorante	22	19	20	1	0
+Harry Cipriani	21	20	20	1	0
+La Gioconda	20	16	18	1	1
+Bice	21	20	18	1	0
+Coco Pazzo Café	20	19	19	1	0
+DeGrezia	23	22	23	1	0
+FELIDIA	25	22	23	1	0
+Fresco by Scotto	23	21	21	1	0
+Giambelli	21	18	20	1	0
+Il Menestrello	22	19	22	1	0
+Il Nido	24	20	23	1	0
+Il Valentino	21	20	21	1	0
+Luna Piena	19	17	18	1	1
+Paper Moon Milano	19	17	17	1	0
+Teodora	21	17	18	1	0
+San Pietro	24	21	23	1	0
+Bravo Gianni	22	17	21	1	0
+Canaletto	22	17	21	1	0
+Il Gatto & La Volpe	20	15	20	1	1
+Il Valletto Due Mila	21	17	20	1	0
+Scalinatella	24	18	21	1	0
+Barbaresco	16	16	16	1	0
+Da Filippo	20	18	20	1	0
+East River Cafe	20	20	20	1	0
+Fred's at Barneys NY	19	18	17	1	1
+Il Vagabondo	17	14	17	1	1
+Mediterraneo	18	15	16	1	1
+Nello	18	16	15	1	0
+Primola	23	17	20	1	0
+Gino	20	14	19	1	0
+Via Oreto	22	17	20	1	0
+Bardolino	18	13	18	1	1
+Campagnola	24	20	21	1	0
+Cucina Vivolo	19	16	17	1	1
+Grace's Trattoria	18	16	17	1	1
+Lumi	20	19	19	1	0
+Mezzaluna	19	15	17	1	1
+Sette Mezzo	21	16	18	1	0
+Vivolo	20	19	20	1	0
+Zucchero e Pomodori	17	14	15	1	1
+Baraonda	17	18	15	1	1
+Coco Pazzo	22	21	20	1	0
+Due	22	18	20	1	1
+Il Monello	23	20	22	1	0
+Lusardi's	24	20	22	1	0
+Maruzzella	19	14	18	1	1
+Nino's	23	20	22	1	0
+Parma	22	16	21	1	0
+Il Riccio	21	16	20	1	0
+Andiamo	18	17	18	1	1
+Caffe Grazie	18	16	19	1	1
+Giovanni Venticinque	21	18	19	1	0
+Girasole	21	18	21	1	0
+Paola's	23	19	21	1	0
+Rughetta	23	19	24	1	1
+Triangolo	20	16	19	1	1
+Cafe Trevi	23	19	23	1	0
+Divino Ristorante	19	15	19	1	1
+Elio's	23	18	20	1	0
+Erminia	25	24	24	1	0
+Firenze	21	19	21	1	0
+Luca	21	15	18	1	1
+Nicola's	22	18	21	1	0
+Primavera	24	22	23	1	0
+Sirabella's	23	16	22	1	1
+Sistina	23	19	21	1	0
+Spada	19	18	18	1	1
+Trattoria Rustica	20	16	18	1	1
+Carino Ristorante	19	13	20	1	1
+Quattro Gatti	19	17	19	1	0
+Tony's Di Napoli	19	14	17	1	1
+Ecco-la	18	15	15	1	1
+Joanna's	19	18	21	1	0
+Vico	20	15	17	1	0
+Rao's	23	16	20	1	0
+Basta Pasta	18	15	17	0	1
+Campagna	24	21	21	1	0
+Follonico	23	20	21	1	0
+Ribollita	18	16	16	1	1
+Bondí Ristorante´	20	17	19	0	1
+Casa Mia	20	19	19	1	1
+Novitá	23	19	21	1	0
+Paul & Jimmy's	19	16	19	1	0
+Sal Anthony's	18	16	18	1	1
+Enoteca i Trulli	23	20	21	1	0
+I Trulli	23	22	21	1	0
+Lamarca	18	9	15	1	1
+Supreme Macaroni Co.	17	14	17	0	1
+Veronica	21	6	14	0	1
+Arno	19	17	19	0	0
+Amarone	19	15	18	0	1
+Cara Mia	19	15	17	0	1
+Casa Di Meglio	19	17	18	0	1
+La Rivista	19	16	18	0	0
+Trattoria Dopo Teatro	17	16	17	0	1
+Barbetta	20	23	20	0	0
+Becco	20	17	19	0	1
+Coco Pazzo Teatro	18	18	17	0	0
+Orso	22	18	20	0	0
+Osteria al Doge	20	17	18	0	0
+Pietrasanta	20	15	19	0	1
+Rainbow Grill	19	23	18	0	0
+Torre di Pisa	19	21	17	0	0
+San Domenico	23	22	22	0	0
+Trionfo	20	17	21	0	0
+ViceVersa	22	22	20	0	0
+Artusi	20	19	20	0	0
+Ciao Europa	19	19	18	0	0
+Limoncello	19	18	20	0	0
+Puttanesca	19	15	17	0	1
+Rino Trattoria	20	14	16	0	1
+Sette MoMA	18	21	17	0	0
+Trattoria Del Sogno	21	18	19	0	1
+Castellano	21	18	20	0	0
+Circo Osteria del	22	24	21	0	0
+Giovanni	22	19	21	0	0
+Palio	22	25	22	0	0
+Remi	23	23	21	0	0
+Tuscan Square	19	20	17	0	0
+Vago Ristorante	22	21	23	0	0
+Bello	21	17	20	0	1
+Caffe Cielo	18	17	18	0	1
+Da Tommaso	21	16	20	0	0
+Il Tinello	23	19	23	0	0
+Nocello	21	19	20	0	1
+Tino's	20	18	18	0	0
+Mangia e Bevi	17	14	16	0	1
+Patsy's	20	16	19	0	0
+Gabriel's	22	19	21	0	0
+Pappardella	18	16	17	0	1
+Ernie's	16	15	16	0	1
+Pomodoro Rosso	20	17	19	0	1
+Scaletta	21	19	22	0	0
+La Grolla, Ristorante	21	15	19	0	0
+Sambuca, Trattoria	19	16	18	0	1
+Baci	17	15	16	0	1
+Puccini	20	16	17	0	1
+Bella Luna	18	16	17	0	1
+Métisse	22	17	21	0	1
+Gennaro	24	10	16	0	1
